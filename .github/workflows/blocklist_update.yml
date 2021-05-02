@@ -29,3 +29,12 @@ jobs:
         cd dns_adblock
         python dns_adblock.py
         ls -l bind
+     
+    - name: Commit changes
+      run: |
+        git config --global push.default simple
+        git config --global user.email "contact@segurodns.net"
+        git config --global user.name "Brian"
+        git commit -am "Automated update."
+        git push -u origin main
+
