@@ -1,0 +1,30 @@
+name: Blocklist update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.6
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.6
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8 pytest requests
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Build rpz blocklist
+      run: |
+        cd dns_adblock
+        python dns_adblock.py
