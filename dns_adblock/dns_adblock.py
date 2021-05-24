@@ -119,14 +119,18 @@ def create_zone_file(master_blocklist_path, blocklist_directory):
     bind_blocklist_path = f'{bind_directory}/rpz.blocklist'
     bind_blocklist_file = open(bind_blocklist_path, 'w', encoding='utf8')
     bind_blocklist_file.write('$TTL 60\n'
-                              '@ IN SOA localhost. rpz.zone.blocklist. (\n'
+                              '@ IN SOA @ rpz.local. (\n'
                               '2020081600 ;Serial\n'
                               '3600 ;Refresh\n'
                               '1800 ;Retry\n'
                               '604800 ;Expire\n'
                               '43200 ;Minimum TTL\n'
                               ')\n\n'
-                              'rpz.zone.blocklist. IN NS localhost.\n\n')
+                              ' NS @\n'
+                              ' A 127.0.0.1\n'
+                              ' AAAA ::1\n\n'
+                             )
+
     with open(master_blocklist_path, 'r') as f:
         for domain in f.readlines():
             domain = domain.strip()

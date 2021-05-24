@@ -2,7 +2,7 @@
 This project generates a zone file for BIND from various blocklists.  The zone file can be used with [RPZ](https://en.wikipedia.org/wiki/Response_policy_zone).
 
 ## Updates
-The blocklist is updated once a day using Github Actions (coming soon).
+The blocklist is updated once a day using Github Actions.
 
 ## Generate your own blocklist file
 To download your own blocklist follow these steps.
