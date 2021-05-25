@@ -1,5 +1,5 @@
 $TTL 60
-@ IN SOA localhost. rpz.zone.blocklist. (
+@ IN SOA @ rpz.local. (
 2020081600 ;Serial
 3600 ;Refresh
 1800 ;Retry
@@ -7,7 +7,9 @@ $TTL 60
 43200 ;Minimum TTL
 )
 
-rpz.zone.blocklist. IN NS localhost.
+ NS @
+ A 127.0.0.1
+ AAAA ::1
 
 0-24bpautomentes.hu CNAME .
 0.0.0.0.beeglivesex.com CNAME .
@@ -14086,6 +14088,7 @@ amplifypixel.outbrain.com CNAME .
 amplitude.com CNAME .
 amplo.xyz CNAME .
 ampmetrics.engadget.com CNAME .
+ampmetrics.techcrunch.com CNAME .
 ampower.me CNAME .
 amprtc.media.net CNAME .
 amptrack.dailymail.co.uk CNAME .
@@ -15067,6 +15070,7 @@ api-test.scaleout.jp CNAME .
 api-us-east.zqtk.net CNAME .
 api-us.appodealx.com CNAME .
 api-usent.kampyle.com CNAME .
+api-v3.tinypass.com CNAME .
 api-vip.immomo.com CNAME .
 api.247-inc.net CNAME .
 api.53.localytics.com CNAME .
@@ -15246,6 +15250,7 @@ api.kochava.com CNAME .
 api.lanistaads.com CNAME .
 api.leadpages.io CNAME .
 api.leanplum.com CNAME .
+api.limbik.com CNAME .
 api.linkgist.com CNAME .
 api.linkz.net CNAME .
 api.livejasmin.com CNAME .
@@ -16391,6 +16396,7 @@ assets.locuslabs.com CNAME .
 assets.loomia.com CNAME .
 assets.luminate.com CNAME .
 assets.mantisadnetwork.com CNAME .
+assets.minutemediacdn.com CNAME .
 assets.moat.com CNAME .
 assets.percentmobile.com CNAME .
 assets.popmarker.com CNAME .
@@ -18705,6 +18711,8 @@ biromacos.com CNAME .
 birta.stats.is CNAME .
 birth-control.1.p2l.info CNAME .
 bis-dic15.com CNAME .
+bis.vidazoo.com CNAME .
+bisdr.vidazoo.com CNAME .
 bismetrics.experian.com CNAME .
 bison.weitweit.at CNAME .
 bistro-apetyczna.pl CNAME .
@@ -20883,6 +20891,7 @@ buy-xanax-online.amovoce.net CNAME .
 buy-xanax.aztecaonline.net CNAME .
 buy-xanax.hut1.ru CNAME .
 buy-zyban.all.at CNAME .
+buy.tinypass.com CNAME .
 buy404s.com CNAME .
 buycheapadvertising.com CNAME .
 buycialisonline.7h.com CNAME .
@@ -22550,6 +22559,7 @@ cdn.teads.tv CNAME .
 cdn.teads.tv.edgekey.net CNAME .
 cdn.teamskeetimages.com CNAME .
 cdn.tekoapis.com CNAME .
+cdn.tinypass.com CNAME .
 cdn.total-media.net CNAME .
 cdn.tpmedia.online CNAME .
 cdn.tracking.bannerflow.com CNAME .
@@ -24715,6 +24725,7 @@ config.hiido.com CNAME .
 config.inmobi.cn CNAME .
 config.inmobi.com CNAME .
 config.ioam.de CNAME .
+config.mobilegamestats.com CNAME .
 config.otherlevels.com CNAME .
 config.parsely.com CNAME .
 config.quantumgraph.com CNAME .
@@ -24907,6 +24918,7 @@ content-p.telsi.fr CNAME .
 content-prod3.glance-internal.inmobi.com CNAME .
 content-ssl.yieldmanager.com CNAME .
 content-strl.courses-en-ligne.carrefour.fr CNAME .
+content-thumbnail.cxpublic.com CNAME .
 content.acc-hd.de CNAME .
 content.ad CNAME .
 content.ad-flow.com CNAME .
@@ -26807,6 +26819,7 @@ dashbo15myapp.com CNAME .
 dashboard-csr11.net.daraz.com CNAME .
 dashboard.adcalls.nl CNAME .
 dashboard.khholdings.co.za CNAME .
+dashboard.tinypass.com CNAME .
 dashboardlib-ht-1.net.daraz.com CNAME .
 dashboardnew.adcalls.nl CNAME .
 dashgreen.online CNAME .
@@ -27154,6 +27167,7 @@ dc-storm.com CNAME .
 dc.5.p2l.info CNAME .
 dc.ads.linkedin.com CNAME .
 dc.audi.com CNAME .
+dc.banggood.com CNAME .
 dc.bizjournals.com CNAME .
 dc.impact-ad.jp CNAME .
 dc.kaboodle.com CNAME .
@@ -31559,6 +31573,7 @@ experience.phenomenex.com CNAME .
 experience.rehmann.com CNAME .
 experience.rochesterregional.org CNAME .
 experience.rsm.com.au CNAME .
+experience.tinypass.com CNAME .
 experiment.appadhoc.com CNAME .
 expert.smalley.com CNAME .
 expertbike.pl CNAME .
@@ -33395,6 +33410,7 @@ freshdepor.com CNAME .
 freshestate.com.pl CNAME .
 freshiuz.com CNAME .
 freshmac.space CNAME .
+freshworks.com CNAME .
 frieman.pl CNAME .
 friend-card.com CNAME .
 friend-cards.com CNAME .
@@ -36648,6 +36664,7 @@ havesetup.net CNAME .
 haveuheard.us.intellitxt.com CNAME .
 hawanczykaura.com.pl CNAME .
 hawardschoolofdriving.com CNAME .
+hawk.pcgamer.com CNAME .
 haxdym.min-breeder.com CNAME .
 haymarketbusinesspublications.122.2o7.net CNAME .
 haynet.adbureau.net CNAME .
@@ -38198,9 +38215,11 @@ id.get35.com CNAME .
 id.halo.ad.gt CNAME .
 id.hellomagazine.com CNAME .
 id.kbmg.cz CNAME .
+id.sharedid.org CNAME .
 id.sputniknews.com CNAME .
 id.sv.rkdms.com CNAME .
 id.theroot.com CNAME .
+id.tinypass.com CNAME .
 id.washingtonpost.com CNAME .
 id1.cn CNAME .
 id1.cn.com CNAME .
@@ -38661,6 +38680,7 @@ images.primaryads.com CNAME .
 images.rambler.ru CNAME .
 images.revcontent.com CNAME .
 images.revtrax.com CNAME .
+images.scanalert.com CNAME .
 images.secureserver.net CNAME .
 images.sexlist.com CNAME .
 images.skenzo.com CNAME .
@@ -38687,6 +38707,7 @@ images1.taboola.com CNAME .
 images1.test.de CNAME .
 images2.advanstar.com CNAME .
 images2.laih.com CNAME .
+images2.minutemediacdn.com CNAME .
 images2.taboola.com CNAME .
 images2.zemanta.com CNAME .
 images3.linkwithin.com CNAME .
@@ -40397,6 +40418,7 @@ inv-nets.admixer.net CNAME .
 inv3te.oui.sncf CNAME .
 invenio.sgn.com CNAME .
 inventionpassenger.com CNAME .
+inventory.vidazoo.com CNAME .
 invest-fd.io CNAME .
 invest-flow.io CNAME .
 invest-moment.com CNAME .
@@ -44444,6 +44466,7 @@ luckybrownie.com CNAME .
 luckyday.world CNAME .
 luckyducknet.com CNAME .
 luckymeetyou.com CNAME .
+luckyorange.com CNAME .
 luckytds.ru CNAME .
 lucrativia.com.br CNAME .
 lucyfeed.com CNAME .
@@ -45873,6 +45896,7 @@ marketing.triconresidential.com CNAME .
 marketing.trucode.com CNAME .
 marketing.trustonefinancial.org CNAME .
 marketing.ttcu.com CNAME .
+marketing.tunity.com CNAME .
 marketing.tvcn.nl CNAME .
 marketing.tweetal.nl CNAME .
 marketing.ugamsolutions.com CNAME .
@@ -48323,6 +48347,7 @@ mobile-global-apps-storage.life CNAME .
 mobile-global-apps-storages.life CNAME .
 mobile-global-apps-store.life CNAME .
 mobile-global.baidu.com CNAME .
+mobile-http-intake.logs.datadoghq.com CNAME .
 mobile-olx.pl CNAME .
 mobile-olx.site CNAME .
 mobile-productplace.net CNAME .
@@ -49022,6 +49047,7 @@ mukunth.com CNAME .
 mulato.info CNAME .
 mule.caddyserver.com CNAME .
 mulikit.com CNAME .
+multi-cluster.directservices.it CNAME .
 multi.xnxx.com CNAME .
 multi1.rmuk.co.uk CNAME .
 multico.5v.pl CNAME .
@@ -51355,6 +51381,7 @@ o2.eyereturn.com CNAME .
 o2.hit.gemius.pl CNAME .
 o2.nowy-regulamin.pl CNAME .
 o2.regulamin-poczty.net CNAME .
+o278969.ingest.sentry.io CNAME .
 o2adpl.hit.gemius.pl CNAME .
 o2news.you2.pl CNAME .
 o333o.com CNAME .
@@ -54032,7 +54059,9 @@ p0czta.net CNAME .
 p0rnuha.com CNAME .
 p1.adhitzads.com CNAME .
 p1.lingpao8.com CNAME .
+p1.parsely.com CNAME .
 p1.tcr21.tynt.com CNAME .
+p102-clb.allstarcluster.com CNAME .
 p128902.clksite.com CNAME .
 p1cluster.cxense.com CNAME .
 p2.danskebank.co.uk CNAME .
@@ -55807,6 +55836,7 @@ pl.spanel.gem.pl CNAME .
 pl.superando.net CNAME .
 pl.tradenewsinvesting.com CNAME .
 pl.tvplusnewtab.com CNAME .
+pl.vidazoo.com CNAME .
 pl.volunteeringwaikato.org.nz CNAME .
 pl.web.toleadoo.com CNAME .
 pl.whokeys.com CNAME .
@@ -56940,6 +56970,7 @@ prebid.adspro.it CNAME .
 prebid.ants.vn CNAME .
 prebid.bksn.se CNAME .
 prebid.byplay.net CNAME .
+prebid.cootlogix.com CNAME .
 prebid.datablocks.net CNAME .
 prebid.deepintent.com CNAME .
 prebid.digitru.st CNAME .
@@ -57225,6 +57256,7 @@ product.adingo.jp.eimg.jp CNAME .
 product.adtima.vn CNAME .
 productcatalog.cn CNAME .
 production-adkviewtrackingtagserver.ap-northeast-1.elasticbeanstalk.com CNAME .
+production-cmp.isgprivacy.cbsi.com CNAME .
 production-public.tubi.io CNAME .
 production-tracking.riviu.co CNAME .
 production.wootric.com CNAME .
@@ -57821,6 +57853,7 @@ pubgalaxy-d.openx.net CNAME .
 pubimgs.sapo.pt CNAME .
 publiads.com CNAME .
 public-gcs.subiz-cdn.com CNAME .
+public-trace-http-intake.logs.datadoghq.com CNAME .
 public-webservice.apdc1n.adpushup.com CNAME .
 public-webservice.apdc3n.adpushup.com CNAME .
 public-webservice.geo.adpushup.com CNAME .
@@ -60185,6 +60218,7 @@ s.atemda.com CNAME .
 s.ato.mx CNAME .
 s.baidu.com CNAME .
 s.baomoi.xdn.vn CNAME .
+s.beop.io CNAME .
 s.bl-1.com CNAME .
 s.blinds.com CNAME .
 s.boom.ro CNAME .
@@ -61028,6 +61062,7 @@ sandbox.car10.net.daraz.com CNAME .
 sandbox.duapps.com CNAME .
 sandbox.livejasmin.com CNAME .
 sandbox.r-ln-1.net.daraz.com CNAME .
+sandbox.tinypass.com CNAME .
 sandboxns2.cl.bellsouth.net.daraz.com CNAME .
 sandboxwww.net.daraz.com CNAME .
 sandeman.xyz CNAME .
@@ -61708,6 +61743,7 @@ search.privitize.com CNAME .
 search.searchsquire.com CNAME .
 search.sextracker.com CNAME .
 search.spotxchange.com CNAME .
+search.supplyframe.com CNAME .
 search.thinktarget.com CNAME .
 search.xrenoder.com CNAME .
 search2007.info CNAME .
@@ -66968,6 +67004,7 @@ static.va1.vip.prod.criteo.net CNAME .
 static.vclick.vn CNAME .
 static.vertamedia.com CNAME .
 static.verticalscope.com CNAME .
+static.vidazoo.com CNAME .
 static.vilynx.com CNAME .
 static.virgul.com CNAME .
 static.vpptechnologies.com CNAME .
@@ -67001,6 +67038,7 @@ staticads.btopenworld.com CNAME .
 staticb.mydirtyhobby.com CNAME .
 staticd.cdn.adblade.com CNAME .
 staticd.cdn.industrybrains.com CNAME .
+statics-marketingsites-eus-ms-com.akamaized.net CNAME .
 statics.tricker.vn CNAME .
 staticx1.new.livejasmincdn.com CNAME .
 staticx2.new.livejasmincdn.com CNAME .
@@ -71920,6 +71958,7 @@ trk.iotworldtoday.com CNAME .
 trk.itprotoday.com CNAME .
 trk.justanswer.com CNAME .
 trk.kissmetrics.com CNAME .
+trk.klclick3.com CNAME .
 trk.m1.stadiumgoods.com CNAME .
 trk.networkcomputing.com CNAME .
 trk.nojitter.com CNAME .
@@ -75261,6 +75300,7 @@ widget.achetezfacile.com CNAME .
 widget.adnet.vn CNAME .
 widget.am5.vip.prod.criteo.com CNAME .
 widget.as.criteo.com CNAME .
+widget.beop.io CNAME .
 widget.blogram.jp CNAME .
 widget.cleverads.vn CNAME .
 widget.criteo.com CNAME .
@@ -75278,6 +75318,7 @@ widget.iid-network.jp CNAME .
 widget.iid-networkf.jp CNAME .
 widget.jp.as.criteo.com CNAME .
 widget.kyna.vn CNAME .
+widget.manychat.com CNAME .
 widget.nativly.com CNAME .
 widget.nl.eu.criteo.com CNAME .
 widget.oncustomer.asia CNAME .
@@ -75828,6 +75869,7 @@ wsc1.webspectator.com CNAME .
 wschodniepapierosy.pl CNAME .
 wsdk-files.webengage.com CNAME .
 wsel.net CNAME .
+wserver.vidazoo.com CNAME .
 wsite.smartconvert.co CNAME .
 wsod.com CNAME .
 wsp.adskeeper.co.uk CNAME .
@@ -77214,6 +77256,7 @@ xp2.zedo.com CNAME .
 xpantivirus.com CNAME .
 xpays.com CNAME .
 xphones-2019.info CNAME .
+xpig-dev.directservices.it CNAME .
 xpl.theadex.com CNAME .
 xplusone.com CNAME .
 xponlinescanner.com CNAME .
