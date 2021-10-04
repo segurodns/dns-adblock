@@ -8,7 +8,7 @@ blocklist_domains = [
     'https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=nohtml',
     'https://raw.githubusercontent.com/StevenBlack/hosts/master/data/StevenBlack/hosts',
     'https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt',
-    'http://winhelp2002.mvps.org/hosts.txt',
+    # 'http://winhelp2002.mvps.org/hosts.txt',
     'https://someonewhocares.org/hosts/hosts',
     'https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts',
     'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts',
